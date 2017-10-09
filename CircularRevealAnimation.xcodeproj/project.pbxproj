@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6139A6761E719B7F00971BF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6139A6751E719B7F00971BF6 /* AppDelegate.swift */; };
+		6139A67B1E719B7F00971BF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6139A6791E719B7F00971BF6 /* Main.storyboard */; };
+		6139A67D1E719B7F00971BF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6139A67C1E719B7F00971BF6 /* Assets.xcassets */; };
+		6139A6801E719B7F00971BF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6139A67E1E719B7F00971BF6 /* LaunchScreen.storyboard */; };
+		6139A69F1E71A96A00971BF6 /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6139A69D1E71A96A00971BF6 /* Fabric.framework */; };
+		6139A6A01E71A96A00971BF6 /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6139A69E1E71A96A00971BF6 /* Crashlytics.framework */; };
+		61A1691E1E73779B00C77B3B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A1691D1E73779B00C77B3B /* FirstViewController.swift */; };
+		61A169201E73781500C77B3B /* PopAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A1691F1E73781500C77B3B /* PopAnimator.swift */; };
+		61A169221E73795500C77B3B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A169211E73795500C77B3B /* SecondViewController.swift */; };
+		B5BE7A973214603DBF46974A /* Pods_CircularRevealAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24A35520ED67964550704EA5 /* Pods_CircularRevealAnimation.framework */; };
+		EE8EC489653057B5C24ADB68 /* Pods_CircularRevealAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FC7074B9470C30172A636ED /* Pods_CircularRevealAnimation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24A35520ED67964550704EA5 /* Pods_CircularRevealAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CircularRevealAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		372289B9E0A888540CD41711 /* Pods-CircularRevealAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircularRevealAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CircularRevealAnimation/Pods-CircularRevealAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		505A8A562844859EFA31BC44 /* Pods-CircularRevealAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircularRevealAnimation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CircularRevealAnimation/Pods-CircularRevealAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		6139A6721E719B7F00971BF6 /* CircularRevealAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircularRevealAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6139A6751E719B7F00971BF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6139A67A1E719B7F00971BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6139A67C1E719B7F00971BF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6139A67F1E719B7F00971BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6139A6811E719B7F00971BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6139A6951E719D5800971BF6 /* CircularRevealAnimation-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CircularRevealAnimation-Bridging-Header.h"; sourceTree = "<group>"; };
+		6139A6961E71A60A00971BF6 /* CircularRevealAnimation.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CircularRevealAnimation.entitlements; sourceTree = "<group>"; };
+		6139A69D1E71A96A00971BF6 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		6139A69E1E71A96A00971BF6 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		61A1691D1E73779B00C77B3B /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		61A1691F1E73781500C77B3B /* PopAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopAnimator.swift; sourceTree = "<group>"; };
+		61A169211E73795500C77B3B /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		860DB2C94DDB883A38E220AD /* Pods-CircularRevealAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircularRevealAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-CircularRevealAnimation/Pods-CircularRevealAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		9A4B10F865809F99F5F51119 /* Pods-CircularRevealAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CircularRevealAnimation.release.xcconfig"; path = "Pods/Target Support Files/Pods-CircularRevealAnimation/Pods-CircularRevealAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		9FC7074B9470C30172A636ED /* Pods_CircularRevealAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CircularRevealAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6139A66F1E719B7F00971BF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6139A6A01E71A96A00971BF6 /* Crashlytics.framework in Frameworks */,
+				6139A69F1E71A96A00971BF6 /* Fabric.framework in Frameworks */,
+				EE8EC489653057B5C24ADB68 /* Pods_CircularRevealAnimation.framework in Frameworks */,
+				B5BE7A973214603DBF46974A /* Pods_CircularRevealAnimation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15AFE3A106A37A8E79D893F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				505A8A562844859EFA31BC44 /* Pods-CircularRevealAnimation.debug.xcconfig */,
+				860DB2C94DDB883A38E220AD /* Pods-CircularRevealAnimation.release.xcconfig */,
+				372289B9E0A888540CD41711 /* Pods-CircularRevealAnimation.debug.xcconfig */,
+				9A4B10F865809F99F5F51119 /* Pods-CircularRevealAnimation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6139A6691E719B7F00971BF6 = {
+			isa = PBXGroup;
+			children = (
+				6139A6951E719D5800971BF6 /* CircularRevealAnimation-Bridging-Header.h */,
+				6139A6741E719B7F00971BF6 /* CircularRevealAnimation */,
+				6139A6731E719B7F00971BF6 /* Products */,
+				6139A69D1E71A96A00971BF6 /* Fabric.framework */,
+				6139A69E1E71A96A00971BF6 /* Crashlytics.framework */,
+				15AFE3A106A37A8E79D893F9 /* Pods */,
+				CF829D55675814D6303B999A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6139A6731E719B7F00971BF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6139A6721E719B7F00971BF6 /* CircularRevealAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6139A6741E719B7F00971BF6 /* CircularRevealAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				6139A6961E71A60A00971BF6 /* CircularRevealAnimation.entitlements */,
+				61A1691D1E73779B00C77B3B /* FirstViewController.swift */,
+				61A1691F1E73781500C77B3B /* PopAnimator.swift */,
+				61A169211E73795500C77B3B /* SecondViewController.swift */,
+				6139A6751E719B7F00971BF6 /* AppDelegate.swift */,
+				6139A6791E719B7F00971BF6 /* Main.storyboard */,
+				6139A67C1E719B7F00971BF6 /* Assets.xcassets */,
+				6139A67E1E719B7F00971BF6 /* LaunchScreen.storyboard */,
+				6139A6811E719B7F00971BF6 /* Info.plist */,
+			);
+			path = CircularRevealAnimation;
+			sourceTree = "<group>";
+		};
+		CF829D55675814D6303B999A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FC7074B9470C30172A636ED /* Pods_CircularRevealAnimation.framework */,
+				24A35520ED67964550704EA5 /* Pods_CircularRevealAnimation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6139A6711E719B7F00971BF6 /* CircularRevealAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6139A6841E719B7F00971BF6 /* Build configuration list for PBXNativeTarget "CircularRevealAnimation" */;
+			buildPhases = (
+				D83E2CBB313DEEED2B562556 /* [CP] Check Pods Manifest.lock */,
+				6139A66E1E719B7F00971BF6 /* Sources */,
+				6139A66F1E719B7F00971BF6 /* Frameworks */,
+				6139A6701E719B7F00971BF6 /* Resources */,
+				371DFA19EBEF6AE4E5726E78 /* [CP] Embed Pods Frameworks */,
+				A43944E1B85C2D997B5B8456 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircularRevealAnimation;
+			productName = CircularRevealAnimation;
+			productReference = 6139A6721E719B7F00971BF6 /* CircularRevealAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6139A66A1E719B7F00971BF6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Chingiz Bayshurin";
+				TargetAttributes = {
+					6139A6711E719B7F00971BF6 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = JFS8TB5L7H;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 6139A66D1E719B7F00971BF6 /* Build configuration list for PBXProject "CircularRevealAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6139A6691E719B7F00971BF6;
+			productRefGroup = 6139A6731E719B7F00971BF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6139A6711E719B7F00971BF6 /* CircularRevealAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6139A6701E719B7F00971BF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6139A6801E719B7F00971BF6 /* LaunchScreen.storyboard in Resources */,
+				6139A67D1E719B7F00971BF6 /* Assets.xcassets in Resources */,
+				6139A67B1E719B7F00971BF6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		371DFA19EBEF6AE4E5726E78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CircularRevealAnimation/Pods-CircularRevealAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A43944E1B85C2D997B5B8456 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CircularRevealAnimation/Pods-CircularRevealAnimation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D83E2CBB313DEEED2B562556 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6139A66E1E719B7F00971BF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61A169201E73781500C77B3B /* PopAnimator.swift in Sources */,
+				61A1691E1E73779B00C77B3B /* FirstViewController.swift in Sources */,
+				6139A6761E719B7F00971BF6 /* AppDelegate.swift in Sources */,
+				61A169221E73795500C77B3B /* SecondViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6139A6791E719B7F00971BF6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6139A67A1E719B7F00971BF6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6139A67E1E719B7F00971BF6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6139A67F1E719B7F00971BF6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6139A6821E719B7F00971BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6139A6831E719B7F00971BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6139A6851E719B7F00971BF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 372289B9E0A888540CD41711 /* Pods-CircularRevealAnimation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CircularRevealAnimation/CircularRevealAnimation.entitlements;
+				DEVELOPMENT_TEAM = JFS8TB5L7H;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CircularRevealAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.baydevgroup.CircularRevealAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0588b3e1-be8d-49ca-bf0d-ffbf8f0878e2";
+				PROVISIONING_PROFILE_SPECIFIER = CircularRevealAnimationDev;
+				SWIFT_OBJC_BRIDGING_HEADER = "CircularRevealAnimation-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6139A6861E719B7F00971BF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A4B10F865809F99F5F51119 /* Pods-CircularRevealAnimation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CircularRevealAnimation/CircularRevealAnimation.entitlements;
+				DEVELOPMENT_TEAM = JFS8TB5L7H;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = CircularRevealAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.baydevgroup.CircularRevealAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0588b3e1-be8d-49ca-bf0d-ffbf8f0878e2";
+				PROVISIONING_PROFILE_SPECIFIER = CircularRevealAnimationDev;
+				SWIFT_OBJC_BRIDGING_HEADER = "CircularRevealAnimation-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6139A66D1E719B7F00971BF6 /* Build configuration list for PBXProject "CircularRevealAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6139A6821E719B7F00971BF6 /* Debug */,
+				6139A6831E719B7F00971BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6139A6841E719B7F00971BF6 /* Build configuration list for PBXNativeTarget "CircularRevealAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6139A6851E719B7F00971BF6 /* Debug */,
+				6139A6861E719B7F00971BF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6139A66A1E719B7F00971BF6 /* Project object */;
+}
